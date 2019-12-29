@@ -14,7 +14,8 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    <div>You are logged in!</div>
+                    <div><small>Your account is protected by castle.io</small><div>
                 </div>
             </div>
         </div>

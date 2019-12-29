@@ -2,13 +2,15 @@
 
 namespace App;
 
+use robrogers3\Laracastle\Traits\ResetsAccounts;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class User extends Authenticatable implements MustVerifyEmail
 {
-    use Notifiable;
+    use Notifiable, ResetsAccounts;
+
 
     /**
      * The attributes that are mass assignable.
