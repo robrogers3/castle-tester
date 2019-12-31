@@ -961,16 +961,16 @@
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.61",
+            "version": "1.0.62",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "4fb13c01784a6c9f165a351e996871488ca2d8c9"
+                "reference": "14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/4fb13c01784a6c9f165a351e996871488ca2d8c9",
-                "reference": "4fb13c01784a6c9f165a351e996871488ca2d8c9",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0",
+                "reference": "14dd5d7dff5fbc29ca9a2a53ff109760e40d91a0",
                 "shasum": ""
             },
             "require": {
@@ -1041,7 +1041,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2019-12-08T21:46:50+00:00"
+            "time": "2019-12-29T14:46:55+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -1808,12 +1808,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/robrogers3/Laracastle.git",
-                "reference": "b553d2d7e285144daafb91ad6486790d06b2eb6b"
+                "reference": "7388d6adf94c5d9ed2404787f1d7ce4e14cffed1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/robrogers3/Laracastle/zipball/b553d2d7e285144daafb91ad6486790d06b2eb6b",
-                "reference": "b553d2d7e285144daafb91ad6486790d06b2eb6b",
+                "url": "https://api.github.com/repos/robrogers3/Laracastle/zipball/7388d6adf94c5d9ed2404787f1d7ce4e14cffed1",
+                "reference": "7388d6adf94c5d9ed2404787f1d7ce4e14cffed1",
                 "shasum": ""
             },
             "require": {
@@ -1868,7 +1868,7 @@
                 "source": "https://github.com/robrogers3/Laracastle/tree/master",
                 "issues": "https://github.com/robrogers3/Laracastle/issues"
             },
-            "time": "2019-12-29T03:46:20+00:00"
+            "time": "2019-12-29T21:43:59+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3685,16 +3685,16 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508"
+                "reference": "4c97f814aa2f0dd4d5bedc89181c10ef12c004c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508",
-                "reference": "ecbc8f3ed2cafca3cfca3d5febaae5a9d2899508",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/4c97f814aa2f0dd4d5bedc89181c10ef12c004c5",
+                "reference": "4c97f814aa2f0dd4d5bedc89181c10ef12c004c5",
                 "shasum": ""
             },
             "require": {
@@ -3713,7 +3713,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.5-dev"
+                    "dev-master": "2.6-dev"
                 }
             },
             "autoload": {
@@ -3742,7 +3742,7 @@
                 "throwable",
                 "whoops"
             ],
-            "time": "2019-12-25T10:00:00+00:00"
+            "time": "2019-12-29T10:00:00+00:00"
         },
         {
             "name": "fzaninotto/faker",
