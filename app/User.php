@@ -2,12 +2,12 @@
 
 namespace App;
 
-use robrogers3\Laracastle\UserInterface;
-use robrogers3\Laracastle\Traits\ChecksVerification;
-use robrogers3\Laracastle\Traits\ResetsAccount;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use robrogers3\Laracastle\UserInterface;
+use robrogers3\Laracastle\Traits\ChecksVerification;
+use robrogers3\Laracastle\Traits\ResetsAccount;
 
 class User extends Authenticatable implements MustVerifyEmail, UserInterface
 {
